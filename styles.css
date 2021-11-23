@@ -1,3 +1,37 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(3, 8, 24, 0),rgba(3,8,24,0.7)),url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701918448.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menubar {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menubar:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+
 
 td {
     padding: 10px;
